@@ -20,8 +20,10 @@ function Id_card(props){
         }
 
     return(
-        <div className="container">
-            <h1>{user} card</h1>
+        <div className="container ">
+            <div className="typewriter">
+                <h1 className="typewriter">{user} card</h1>
+                </div>
             <div className="propsContainer">
                 <div className="idProperties">
                     <div><p><span>name: </span>{idName}</p></div>
